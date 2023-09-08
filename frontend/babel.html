@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>前端开发之Babel篇 | 鹿苑の博客</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/assets/css/0.styles.1e0eb7b9.css" as="style"><link rel="preload" href="/assets/js/app.27fbe7ee.js" as="script"><link rel="preload" href="/assets/js/2.b042aed3.js" as="script"><link rel="preload" href="/assets/js/11.80c3f738.js" as="script"><link rel="preload" href="/assets/js/3.de8876ed.js" as="script"><link rel="prefetch" href="/assets/js/10.d334ba83.js"><link rel="prefetch" href="/assets/js/12.6e96111b.js"><link rel="prefetch" href="/assets/js/13.30940678.js"><link rel="prefetch" href="/assets/js/14.f97adfdc.js"><link rel="prefetch" href="/assets/js/15.5e2d334f.js"><link rel="prefetch" href="/assets/js/16.bf661487.js"><link rel="prefetch" href="/assets/js/17.afd2a642.js"><link rel="prefetch" href="/assets/js/18.d9ea35db.js"><link rel="prefetch" href="/assets/js/19.c8666feb.js"><link rel="prefetch" href="/assets/js/20.d835c1f5.js"><link rel="prefetch" href="/assets/js/21.3c2037ea.js"><link rel="prefetch" href="/assets/js/22.d124373b.js"><link rel="prefetch" href="/assets/js/23.2551f417.js"><link rel="prefetch" href="/assets/js/24.5beebfef.js"><link rel="prefetch" href="/assets/js/25.24e31a11.js"><link rel="prefetch" href="/assets/js/26.39d23b91.js"><link rel="prefetch" href="/assets/js/27.f94fb7d4.js"><link rel="prefetch" href="/assets/js/28.99671b6c.js"><link rel="prefetch" href="/assets/js/4.2fa49934.js"><link rel="prefetch" href="/assets/js/5.98b8f772.js"><link rel="prefetch" href="/assets/js/6.a4b1459c.js"><link rel="prefetch" href="/assets/js/7.f77a5c2f.js"><link rel="prefetch" href="/assets/js/8.ec25bbab.js"><link rel="prefetch" href="/assets/js/9.16e8c944.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1e0eb7b9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">鹿苑の博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/frontend/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/wechat/" class="nav-link">
+  小程序
+</a></div><div class="nav-item"><a href="/interview/" class="nav-link">
+  面试
+</a></div><div class="nav-item"><a href="/other/" class="nav-link">
+  其他
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/frontend/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/wechat/" class="nav-link">
+  小程序
+</a></div><div class="nav-item"><a href="/interview/" class="nav-link">
+  面试
+</a></div><div class="nav-item"><a href="/other/" class="nav-link">
+  其他
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/frontend/" aria-current="page" class="sidebar-link">前端技术栈 | 总览</a></li><li><a href="/frontend/html.html" class="sidebar-link">前端开发之HTML篇</a></li><li><a href="/frontend/css.html" class="sidebar-link">前端开发之CSS篇</a></li><li><a href="/frontend/js.html" class="sidebar-link">前端开发之JavaScript篇</a></li><li><a href="/frontend/jquery.html" class="sidebar-link">前端开发之JQuery篇</a></li><li><a href="/frontend/vue.html" class="sidebar-link">前端开发之Vue篇</a></li><li><a href="/frontend/react.html" class="sidebar-link">前端开发之React篇</a></li><li><a href="/frontend/angular.html" class="sidebar-link">前端开发之Angular篇</a></li><li><a href="/frontend/preprocessor.html" class="sidebar-link">前端开发之CSS预处理器篇</a></li><li><a href="/frontend/babel.html" aria-current="page" class="active sidebar-link">前端开发之Babel篇</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/frontend/babel.html#babel-发展历程" class="sidebar-link">Babel 发展历程</a></li><li class="sidebar-sub-header"><a href="/frontend/babel.html#babel简介及相关资源" class="sidebar-link">Babel简介及相关资源</a></li></ul></li><li><a href="/frontend/build.html" class="sidebar-link">前端开发之构建打包篇</a></li><li><a href="/frontend/ts.html" class="sidebar-link">前端开发之TypeScript篇</a></li><li><a href="/frontend/node.html" class="sidebar-link">前端开发之Node篇</a></li><li><a href="/frontend/tech_noun.html" class="sidebar-link">前端技术专有名词</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="前端开发之babel篇"><a href="#前端开发之babel篇" class="header-anchor">#</a> 前端开发之Babel篇</h1> <h2 id="babel-发展历程"><a href="#babel-发展历程" class="header-anchor">#</a> Babel 发展历程</h2> <p>Babel 是一个广泛使用的 JavaScript 编译器，它可以将 ECMAScript 2015+ 代码转换为向后兼容的 JavaScript 代码，从而在现有环境中运行。以下是 Babel 的发展历程：</p> <p>2014年：Babel 首次发布。Babel 最初是一个叫做 6to5 的项目，由 Sebastian McKenzie 开发，它能够将 ES6 代码转换为 ES5 代码，首次发布于 2014 年。</p> <p>2015年：Babel 发布 6.0 版本。Babel 6.0 版本引入了新的插件系统和配置文件。</p> <p>2016年：Babel 发布 7.0 版本。Babel 7.0 版本引入了许多新特性，如更好的 TypeScript 支持和更好的流支持等。</p> <p>2017年：Babel 和 Webpack 的整合。Babel 和 Webpack 的整合大大简化了前端开发的工作流程，Babel 成为了 React 生态系统中的重要组成部分。</p> <p>2018年：Babel 与 TypeScript 的集成。Babel 与 TypeScript 的集成大大增强了 Babel 的类型检查和类型安全性。</p> <p>2019年：Babel 对 ECMAScript 标准的实现。Babel 对 ECMAScript 标准的实现进一步完善，支持包括异步迭代器、装饰器和类属性在内的新特性。</p> <p>总之，Babel 的发展历程充满了创新和变革，它通过提供丰富的插件系统、配置文件和工具集，极大地简化了 JavaScript 代码的转换和兼容性问题，并且在性能和可用性等方面不断发展和进步。目前，Babel 成为了前端开发中最常用的工具之一，被广泛应用于许多重要的 Web 项目中。</p> <h2 id="babel简介及相关资源"><a href="#babel简介及相关资源" class="header-anchor">#</a> Babel简介及相关资源</h2> <p>Babel 是一个流行的 JavaScript 编译器，用于将代码从最新版 ECMAScript (ES) 转换为向后兼容的 JavaScript 版本，以便在旧版本的浏览器或环境中运行。<br>
+官网地址：<a href="https://babeljs.io/" target="_blank" rel="noopener noreferrer">https://babeljs.io/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a><br>
+GitHub 地址：<a href="https://github.com/babel/babel" target="_blank" rel="noopener noreferrer">https://github.com/babel/babel<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/frontend/preprocessor.html" class="prev">
+        前端开发之CSS预处理器篇
+      </a></span> <span class="next"><a href="/frontend/build.html">
+        前端开发之构建打包篇
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.27fbe7ee.js" defer></script><script src="/assets/js/2.b042aed3.js" defer></script><script src="/assets/js/11.80c3f738.js" defer></script><script src="/assets/js/3.de8876ed.js" defer></script>
+  </body>
+</html>
